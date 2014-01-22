@@ -16,7 +16,8 @@ TODO fill in background on Secha XTJS
 - Install Sencha-cmd http://www.sencha.com/products/sencha-cmd/download
 - Install Node (nodejs.org)
 - Confirm node and npm : ``` node -v ``` and ```npm -v``` 
-- Install Strong-Cli ``` sudo npm install -g strong-cli ```
+- Install Strong-cli ``` sudo npm install -g strong-cli ```
+- Confirm slc Strong-cli install ```slc version```
 
 ###Initializing StrongLoop LoopBack and Sencha extjs
 
@@ -151,7 +152,7 @@ update the products/add.js file to [add.js](/strongloop-server/app/view/products
 
 `/public/app/controller/ProductController.js` will facilitate the configuratoin of our View representations with our Model and Store components.
 
- 
+ 	
 
 
 
