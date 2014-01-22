@@ -70,6 +70,9 @@ No that we have the sencha xtjs app scaffold in our Node.js application we can f
 
 Lets start with the model.
 
+
+####Configuring the Secha Model and Stores
+
 Configuring the Model to support our StrongLoop Node REST endpoints.
 
 Open the app/public/model/ProductModel.js file and update the XXX from the boilerplate
@@ -146,6 +149,9 @@ Ext.define('mySenchApp.store.ProductStore', {
 });
 ```
 
+
+####Configuring the Secha Views
+
 Now that we have our Model and Store defined we can go to the Views.  For this data viewer and editor we will need 2 views: ```products.add``` and ```products.list``` . 
 
 the ```add.js``` file will show the listing of Product records and the ```add.js``` will give us a modal dialog to create new Product records.
@@ -153,6 +159,9 @@ the ```add.js``` file will show the listing of Product records and the ```add.js
 model/ProductModel.js
 
 update the products/add.js file to [add.js](http://github.com/mschmulen/connecting-sencha-xtjs-node/blob/master/strongloop-server/public/app/view/products/add.js) and the list.js to [list.js](http://github.com/mschmulen/connecting-sencha-xtjs-node/blob/master/strongloop-server/public/app//view/products/list.js). once that is complete we need to make sure the controllers are updated to bind to the model data with the new views
+
+
+####Configuring the Secha Controller
 
 `/public/app/controller/ProductController.js` will facilitate the configuratoin of our View representations with our Model and Store components.
 
