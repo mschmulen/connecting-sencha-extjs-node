@@ -148,7 +148,9 @@ Now that we have our Model and Store defined we can go to the Views.  For this d
 
 the ```add.js``` file will show the listing of Product records and the ```add.js``` will give us a modal dialog to create new Product records.
 
-update the products/add.js file to [add.js](/strongloop-server/app/view/products/add.js) and the list.js to [list.js](/strongloop-server/app/view/products/list.js). once that is complete we need to make sure the controllers are updated to bind to the model data with the new views
+model/ProductModel.js
+
+update the products/add.js file to [add.js](http://github.com/mschmulen/connecting-sencha-xtjs-node/blob/master/strongloop-server/public/app/view/products/add.js) and the list.js to [list.js](http://github.com/mschmulen/connecting-sencha-xtjs-node/blob/master/strongloop-server/public/app//view/products/list.js). once that is complete we need to make sure the controllers are updated to bind to the model data with the new views
 
 `/public/app/controller/ProductController.js` will facilitate the configuratoin of our View representations with our Model and Store components.
 
