@@ -1,5 +1,5 @@
 
-* Work in Progress *
+*Work in Progress*
 
 
 Connecting Sencha xtjs with StrongLoop Node.js
