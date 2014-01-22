@@ -15,7 +15,7 @@ Connecting Sencha xtjs with StrongLoop Node.js
 
 The Node.js platform and StrongLoop node packages make it easy to not only serve your Sencha App and services but also create the API backend that binds to a database like MongoDB or Oracle.In addition to Sencha Ext JS [MVC-architecture](http://docs.sencha.com/extjs/4.0.7/#!/guide/application_architecture) the framework provides cross-platform capability plugin-free charting, and a rich inventory of [UI widgets](http://docs.sencha.com/extjs/4.2.2/#!/example).The benefit of using Sencha Cmd for creating your Ext JS web application is the CLI tool make it easy to conform to the recommended [MVC-architecture](http://docs.sencha.com/extjs/4.0.7/#!/guide/application_architecture) allows you to add models and views to your project with a command like `sencha generate view MyNewView’ keeping projects organized and applications scalable.The combination makes for a powerful developer workflow for a best in class HTML/JS client application and the power of JavaScript on the server with Node.
 
-##How
+##Getting Started
 
 To build Sencha applications on your desktop machine you will need to install the following tools and SDK’s:
 
@@ -136,7 +136,7 @@ Ext.define('mySenchApp.model.ProductModel', {
     },
 		
     fields: [
-    		{ name: 'id', type: 'int', defaultValue: null },
+    	{ name: 'id', type: 'int', defaultValue: null },
         { name: 'name', type: 'string' },
         { name: 'description', type: 'string' },
         { name: 'inventory', type: 'int' },
@@ -197,18 +197,17 @@ In addition to the new View files you will also need to update Main.js to call y
     }
 ```
 
-####Configuring the Secha Controller
+####Configuring the Sencha Controller
 
 `/public/app/controller/ProductController.js` will facilitate the configuration of our View representations with our Model and Store components.
 
-Overview of the controller: - 
+@mschmulen TODO Overview of the controller: - 
 
-The full ProductController.js file can be found [here](/strongloop-server/public/app/controller/ProductController.j)
-
+Replace the template code that was created earlier with this [ProductController.js file](/strongloop-server/public/app/controller/ProductController.j)
 
 ####Updating Application.js
 
-Finally update the main Sencha Application.js located at ```/public/Application.js``` file to include the view and controller dependencies.
+Finally update the main Sencha Application.js located at ```/public/Application.js``` file to include the dependencies and initialize our VTypes for the new record form.
 
 ```
 requires: [
@@ -231,9 +230,9 @@ launch: function(){
 
 ```
 
-Since this demo leverages form libraries you will also need to copy the [lib folder ](/strongloop-server/public/lib) into your Sencha app.
+Since this demo leverages libraries for adding new records to the backend you will also need to copy the [lib folder](/strongloop-server/public/lib) into ```/strongloop-server/public/lib```.
 
-One important note regarding the Sencha workflow. If you add or significantly modify MVC Sencha files you need to run the Sencha-cmd build command ```sencha app build``` to compile the javaScript application.
+One important note regarding the Sencha workflow. If you add or significantly modify MVC Sencha files you need to run the Sencha-cmd build command ```sencha app build``` to compile the client JavaScript application.
 
 ###Add some data record with StrongLoop Explorer
 
@@ -255,9 +254,6 @@ Update the Records in your Node backend
 
 ##Next Steps
 
+Bind the application to MongoDB, Oracle or any of the out of the box LoopBack supported data stores by modifying the data store file.
 
-Bind the application to MongoDB, Oracle or any of the out of the box LoopBack supported data stores by modifying the XXXX.
-
-
-Thanks for your time ! 
-
+Thanks for your time !
