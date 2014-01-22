@@ -234,11 +234,14 @@ Since this demo leverages libraries for adding new records to the backend you wi
 
 One important note regarding the Sencha workflow. If you add or significantly modify MVC Sencha files you need to run the Sencha-cmd build command ```sencha app build``` to compile the client JavaScript application.
 
-###Add some data record with StrongLoop Explorer
+###Add some data with LoopBAck Explorer
 
 With your node application running `slc run app.'s` open your browser to the LoopBack explorer at [http://0.0.0.0:3000/explorer](http://0.0.0.0:3000/explorer). Expand the 'products' row [http://localhost:3000/explorer/#!/products](http://localhost:3000/explorer/#!/products) 
-and enter in some default data such as
-```{"name": "product A", "price":7.66,"inventory":41,"description":"this is product A description "}``` into the post and press the "try it out!" button.
+and enter in some default data such as:
+
+```{"name": "product A", "price":7.66,"inventory":41,"description":"this is product A description "}``` 
+
+into the post and press the "try it out!" button.
 
 ![image](images/explorerProductsPost.png)
 
