@@ -21,14 +21,14 @@ To build Sencha applications on your desktop machine you will need to install th
 
 - Install [Sencha-cmd](http://www.sencha.com/products/sencha-cmd/download)
 - Install [Sencha-SDK](http://www.sencha.com/products/sencha-cmd/download)
+- Sencha Cmd requires Java Run-time Environment 1.6 or above if your not already up to date.
 
 To build and run your LoopBack Node middle tier you will need to have node and npm installed on your local machine.  Additionally you will need to install the StrongLoop CLI strong-cli to run the ```$slc``` commands for scaffolding, monitoring and debugging your node app.
 
-- Install [Node](nodejs.org)
+- Install [Node](nodejs.org) and npm.
 - Confirm node and npm : ``` node -v ``` and ```npm -v```
 - Install Strong-cli ``` sudo npm install -g strong-cli ```
 - Confirm slc Strong-cli install ```slc version```
-
 
 Full source for the sample can be found on github at [connecting-sencha-extjs-node](https://github.com/mschmulen/connecting-sencha-extjs-node).
 
@@ -244,16 +244,18 @@ and enter in some default data such as
 
 ##Summary
 
-yack yack yack
+Now that we have integrated our Sencha ExtJS app with one of our LoopBack REST endpoints we can extend the integration and support multiple model bindings easily add additional Sencha web [UI widgets](http://docs.sencha.com/extjs/4.2.2/#!/example) such as [charts](http://docs.sencha.com/extjs/4.2.2/#!/guide/charting) and tables.
 
-###Benefits
-
-Update the Records in your Node backend
+The ability to leverage a robust web framework like Ext JS makes it easy to create user interfaces for updating data in the Node backend
 ![image](images/recordEditing.png)
 
+Since we are using LoopBack as our Mobile API middle tier we can also easily bind our data to [MongoDB](http://docs.strongloop.com/display/DOC/MongoDB+connector), [MySQL](http://docs.strongloop.com/display/DOC/MySQL+connector) or [Oracle](http://docs.strongloop.com/display/DOC/Oracle+connector).  Additionally we can use StrongLoops native mobile SDK's for [iOS](http://strongloop.com/mobile/ios/) and [Android](http://strongloop.com/mobile/android) for a full native mobile experience.
+
+We can also use [Strong-Ops to manage and measure](http://strongloop.com/node-js-performance/strongops/) our Node applications performance when we deploy the Node server into production.
 
 ##Next Steps
 
-Bind the application to MongoDB, Oracle or any of the out of the box LoopBack supported data stores by modifying the data store file.
+Get LoopBack [installed via npm](http://)
+Check out the [LoopBack Documentation](http://)
+Browse the [LoopBack API Documentation](http://)
 
-Thanks for your time !
