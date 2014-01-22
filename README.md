@@ -2,7 +2,7 @@
 *Work in Progress*
 
 
-Connecting Sencha xtjs with StrongLoop Node.js
+Connecting Sencha Ext JS with StrongLoop Node.js
 ---
 
 <img src="images/hero.png" alt="tab Home" width="420">
@@ -44,7 +44,7 @@ slc run app.js
 
 slc is a simple command line helper for node applications you can install it on your system by installing it to your global npm cache by running `npm install -g strong-cli` from the terminal.
 
-###Initializing StrongLoop LoopBack and Sencha extjs
+###Initializing StrongLoop LoopBack and Sencha Ext JS
 
 Using the slc command line and Sencha Cmd it’s very easy to scaffold a Node server with a Sencha Ext JS boilerplate application.
 
