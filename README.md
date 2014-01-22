@@ -1,6 +1,8 @@
 Connecting Sencha xtjs with StrongLoop Node.js
 ---
 
+![image](images/hero.png)
+
 ##What 
 
 TODO fill in background on Secha XTJS
