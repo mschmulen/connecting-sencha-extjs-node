@@ -830,7 +830,10 @@ Ext.ClassManager.addNameAlternateMappings({
   "mySenchApp.Application": [],
   "mySenchApp.controller.Main": [],
   "mySenchApp.controller.ProductController": [],
+  "mySenchApp.lib.form.field.VTypes": [],
+  "mySenchApp.lib.form.field.override.Text": [],
   "mySenchApp.model.ProductModel": [],
+  "mySenchApp.store.ProductStore": [],
   "mySenchApp.view.Main": [],
   "mySenchApp.view.Viewport": [],
   "mySenchApp.view.products.add": [],
@@ -1824,13 +1827,20 @@ Ext.ClassManager.addNameAliasMappings({
   "mySenchApp.Application": [],
   "mySenchApp.controller.Main": [],
   "mySenchApp.controller.ProductController": [],
+  "mySenchApp.lib.form.field.VTypes": [],
+  "mySenchApp.lib.form.field.override.Text": [],
   "mySenchApp.model.ProductModel": [],
+  "mySenchApp.store.ProductStore": [],
   "mySenchApp.view.Main": [
     "widget.app-main"
   ],
   "mySenchApp.view.Viewport": [],
-  "mySenchApp.view.products.add": [],
-  "mySenchApp.view.products.list": []
+  "mySenchApp.view.products.add": [
+    "widget.productAdd"
+  ],
+  "mySenchApp.view.products.list": [
+    "widget.products-list"
+  ]
 });
 Ext.setVersion("ext-theme-base", "4.2.1");
 Ext.setVersion("ext-theme-classic", "4.2.1");
