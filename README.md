@@ -168,7 +168,7 @@ The ```add.js``` file will show the listing of Product records and the ```add.js
 
 Update the products/add.js file to [add.js](http://github.com/mschmulen/connecting-sencha-xtjs-node/blob/master/strongloop-server/public/app/view/products/add.js) and the products/list.js to [list.js](http://github.com/mschmulen/connecting-sencha-xtjs-node/blob/master/strongloop-server/public/app//view/products/list.js). Once that is complete we need to make sure the controllers are updated to bind to the model data with the new views.
 
-In addition to the new View files you will also need to update Main.js to call your 'products-list' type.   @mschmulen, tell what are xtypes.
+In addition to the new View files you will also need to update Main.js to call your 'products-list' type.
  
 ```
     initComponent: function () {
@@ -200,8 +200,6 @@ In addition to the new View files you will also need to update Main.js to call y
 ####Configuring the Sencha Controller
 
 `/public/app/controller/ProductController.js` will facilitate the configuration of our View representations with our Model and Store components.
-
-@mschmulen TODO Overview of the controller: - 
 
 Replace the template code that was created earlier with this [ProductController.js file](/strongloop-server/public/app/controller/ProductController.j)
 
