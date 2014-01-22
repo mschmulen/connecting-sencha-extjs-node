@@ -165,7 +165,36 @@ the ```add.js``` file will show the listing of Product records and the ```add.js
 
 model/ProductModel.js
 
-Update the products/add.js file to [add.js](http://github.com/mschmulen/connecting-sencha-xtjs-node/blob/master/strongloop-server/public/app/view/products/add.js) and the list.js to [list.js](http://github.com/mschmulen/connecting-sencha-xtjs-node/blob/master/strongloop-server/public/app//view/products/list.js). once that is complete we need to make sure the controllers are updated to bind to the model data with the new views
+Update the products/add.js file to [add.js](http://github.com/mschmulen/connecting-sencha-xtjs-node/blob/master/strongloop-server/public/app/view/products/add.js) and the list.js to [list.js](http://github.com/mschmulen/connecting-sencha-xtjs-node/blob/master/strongloop-server/public/app//view/products/list.js). once that is complete we need to make sure the controllers are updated to bind to the model data with the new views.
+
+In addition to the new View files you will also need to update Main.js to call your 'products-list' type.   @mschmulen, tell what are xtypes.
+ 
+```
+    initComponent: function () {
+        var me = this;
+				
+        this.items = [
+            {
+                region: 'west',
+                xtype: 'panel',
+                title: 'Menu',
+                width: 150
+            },
+            {
+                region: 'center',
+                xtype: 'tabpanel',
+                items: [
+                    {
+                      xtype: 'products-list'
+                    }
+                ]
+            }
+        ]
+
+        //parent
+        this.callParent(arguments);
+    }
+```
 
 
 ####Configuring the Secha Controller
@@ -176,8 +205,59 @@ Overview of the controller: -
 
 The full ProductController.js file can be found [here](/strongloop-server/public/app/controller/ProductController.j)
 
- 	
+
+####Updating Application.js
+
+Finally update the main Sencha Application.js located at ```/public/Application.js``` file to include the view and controller dependencies.
+
+```
+requires: [
+	'mySenchApp.lib.form.field.VTypes',
+    'mySenchApp.lib.form.field.override.Text'
+],
+
+views: [
+	'products.list',
+	'products.add'
+],
+
+controllers: [
+  'ProductController'
+],
+
+launch: function(){
+     Ext.create('mySenchApp.lib.form.field.VTypes').init();
+},
+
+```
+
+Since this demo leverages form libraries you will also need to copy the [lib folder ](/strongloop-server/public/lib) into your Sencha app.
+
+One important note regarding the Sencha workflow. If you add or significantly modify MVC Sencha files you need to run the Sencha-cmd build command ```sencha app build``` to compile the javaScript application.
+
+###Add some data record with StrongLoop Explorer
+
+With your node application running `slc run app.'s` open your browser to the LoopBack explorer at [http://0.0.0.0:3000/explorer](http://0.0.0.0:3000/explorer). Expand the 'products' row [http://localhost:3000/explorer/#!/products](http://localhost:3000/explorer/#!/products) 
+and enter in some default data such as
+```{"name": "product A", "price":7.66,"inventory":41,"description":"this is product A description "}``` into the post and press the "try it out!" button.
+
+![image](images/explorerProductsPost.png)
+
+##Summary
+
+yack yack yack
+
+###Benefits
+
+Update the Records in your Node backend
+![image](images/recordEditing.png)
 
 
+##Next Steps
 
+
+Bind the application to MongoDB, Oracle or any of the out of the box LoopBack supported data stores by modifying the XXXX.
+
+
+Thanks for your time ! 
 
