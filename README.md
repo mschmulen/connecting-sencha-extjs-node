@@ -9,27 +9,33 @@ Connecting Sencha xtjs with StrongLoop Node.js
 
 ##What
 
-TODO fill in background on Secha XTJS
+[Sencha Ext JS](https://www.sencha.com/products/extjs/) is a development environment for building web apps with a scalable MVC architecture.  The [Sencha Cmd](http://www.sencha.com/products/sencha-cmd/download) tool makes it easy to start your application development and carry you through your development cycle. This post and sample will show you how to use StrongLoop's open source [LoopBack](http://strongloop.com/mobile-application-development/loopback/) module as your Node backend API server and leverage the power of the Sencha Ext JS dev environment for creating your web client application.
 
-##Why
+##Why Ext JS and Node
+
+The Node.js platform and StrongLoop node packages make it easy to not only serve your Sencha App and services but also create the API backend that binds to a database like MongoDB or Oracle.In addition to Sencha Ext JS MVC-architecture the framework provides cross-platform capability plugin-free charting, and a rich inventory of UI widgets.The benefit of using Sencha Cmd for creating your Ext JS web application is the CLI tool make it easy to conform to the recommended MVC-architecture allows you to add models and views to your project with a command like `sencha generate view MyNewView’ keeping projects organized and applications scalable.The combination makes for a powerful developer workflow for a best in class HTML/JS client application and the power of JavaScript on the server with Node.
 
 ##How
-- 
 
-###Pre-Req's and Getting Started
+To build Sencha applications on your desktop machine you will need to install the following tools and SDK’s:
 
 - Install [Sencha-cmd](http://www.sencha.com/products/sencha-cmd/download)
 - Install [Sencha-SDK](http://www.sencha.com/products/sencha-cmd/download)
+
+To build and run your LoopBack Node middle tier you will need to have node and npm installed on your local machine.  Additionally you will need to install the StrongLoop CLI strong-cli to run the ```$slc``` commands for scaffolding, monitoring and debugging your node app.
+
 - Install [Node](nodejs.org)
 - Confirm node and npm : ``` node -v ``` and ```npm -v```
 - Install Strong-cli ``` sudo npm install -g strong-cli ```
 - Confirm slc Strong-cli install ```slc version```
 
-You can run the sample by simply cloning to your local machine and running the node application.
+You can run this sample by simply cloning to your local machine compiling the Sencha app and then running the node application.
 
 ```
 git clone git@github.com:mschmulen/connecting-sencha-xtjs-node.git
-cd connecting-sencha-xtjs-node.git
+cd connecting-sencha-xtjs-node
+cd public
+sencha app build
 slc run app.js
 ```
 
@@ -37,7 +43,7 @@ slc is a simple command line helper for node applications you can install it on 
 
 ###Initializing StrongLoop LoopBack and Sencha extjs
 
-Using the slc command line and sencha cmd its very easy to scaffold a Node server with a Sencha extJS application.
+Using the slc command line and Sencha Cmd its very easy to scaffold a Node server with a Sencha extJS application.
 
 1. Create your loopback node project with dlc ```slc lb project strongloop-server```
 1. ```cd strongloop-server```
