@@ -13,7 +13,7 @@ Connecting Sencha xtjs with StrongLoop Node.js
 
 ##Why Ext JS and Node
 
-The Node.js platform and StrongLoop node packages make it easy to not only serve your Sencha App and services but also create the API backend that binds to a database like MongoDB or Oracle.In addition to Sencha Ext JS MVC-architecture the framework provides cross-platform capability plugin-free charting, and a rich inventory of UI widgets.The benefit of using Sencha Cmd for creating your Ext JS web application is the CLI tool make it easy to conform to the recommended MVC-architecture allows you to add models and views to your project with a command like `sencha generate view MyNewView’ keeping projects organized and applications scalable.The combination makes for a powerful developer workflow for a best in class HTML/JS client application and the power of JavaScript on the server with Node.
+The Node.js platform and StrongLoop node packages make it easy to not only serve your Sencha App and services but also create the API backend that binds to a database like MongoDB or Oracle.In addition to Sencha Ext JS [MVC-architecture](http://docs.sencha.com/extjs/4.0.7/#!/guide/application_architecture) the framework provides cross-platform capability plugin-free charting, and a rich inventory of [UI widgets](http://docs.sencha.com/extjs/4.2.2/#!/example).The benefit of using Sencha Cmd for creating your Ext JS web application is the CLI tool make it easy to conform to the recommended [MVC-architecture](http://docs.sencha.com/extjs/4.0.7/#!/guide/application_architecture) allows you to add models and views to your project with a command like `sencha generate view MyNewView’ keeping projects organized and applications scalable.The combination makes for a powerful developer workflow for a best in class HTML/JS client application and the power of JavaScript on the server with Node.
 
 ##How
 
@@ -39,11 +39,11 @@ sencha app build
 slc run app.js
 ```
 
-slc is a simple command line helper for node applications you can install it on your system by installing it to your global npm cache `npm install -g strong-cli`.
+slc is a simple command line helper for node applications you can install it on your system by installing it to your global npm cache by running `npm install -g strong-cli` from the terminal.
 
 ###Initializing StrongLoop LoopBack and Sencha extjs
 
-Using the slc command line and Sencha Cmd its very easy to scaffold a Node server with a Sencha extJS application.
+Using the slc command line and Sencha Cmd it’s very easy to scaffold a Node server with a Sencha Ext JS boilerplate application.
 
 1. Create your loopback node project with dlc ```slc lb project strongloop-server```
 1. ```cd strongloop-server```
@@ -51,28 +51,21 @@ Using the slc command line and Sencha Cmd its very easy to scaffold a Node serve
 1. Add a model to the project ```slc lb model product```
 1. Create a public folder to host your Sencha extjs app ```mkdir public```
 1. Configure routing in your node app to use the public folder for you applicants index.  In app.'s comment out the default root routing at line 121 ```//app.get('/', loopback.status());```
-1. cd to the newly created public folder ```cd public```
-1. scaffold your sencha app with the sencha cli ```sencha -sdk /Users/matt/acorns/extjs/ext-4.2.1.883 generate app mySenchApp ./```
-1. build your sencha app ```sencha app build```
-1. step back to your main project folder ```cd ../```
-1. run your node server ```slc run app.js```.
+1. Change your directory to the newly created public folder ```cd public```
+1. Scaffold your sencha app with the sencha cli ```sencha -sdk /Users/matt/acorns/extjs/ext-4.2.1.883 generate app mySenchApp ./```
+1. Build your Sencha app ```sencha app build```
+1. Step back to your main project folder ```cd ../```
+1. Run your node server ```slc run app.js```.
 
 Lets make sure we configured the scaffolding correctly by opening up a browser to [http://localhost:3000/](http://localhost:3000/) and you will see the default application running.
 
-If you configured everything correctly you will see the default Sencha app boilerplate as shown below.
-
 <img src="images/defaultSechaApp.png" alt="tab Home" width="420">
 
+###Extend our web app and take advantage of Loopback’s model APILets extend our Sencha Application to show an editable live DataGrid of our LoopBack model data for a custom 'products' model type.
 
-### Extend our sencha app and take advantate of LoopBacks model api 
+First lest generate our Controller, Models and Views using the Sencha cmd tool.
 
-Lets extend our Sencha Applicaion to do something interesting such as showing a dataGrid of our LoopBack model instances for a custom 'products' model type.  to do this we need to customize our sencha app.
-
-### Create a Sencha App to show a datagrid view of our LoopBack 'products' data
-
-1. Generate our Controller, Models and Views using the sencha command line tool
-
-From within the ```~/strongloop-server/public``` folder run the following commands to scaffold the the senca app.
+From within the ```~/strongloop-server/public``` folder run the following commands to scaffold the the Sencha app.
 
 ```
 sencha generate controller ProductController
