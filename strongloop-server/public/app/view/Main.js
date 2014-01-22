@@ -11,16 +11,28 @@ Ext.define('mySenchApp.view.Main', {
         type: 'border'
     },
 
-    items: [{
-        region: 'west',
-        xtype: 'panel',
-        title: 'west',
-        width: 150
-    },{
-        region: 'center',
-        xtype: 'tabpanel',
-        items:[{
-            title: 'Center Tab 1'
-        }]
-    }]
+    initComponent: function () {
+        var me = this;
+				
+        this.items = [
+            {
+                region: 'west',
+                xtype: 'panel',
+                title: 'Menu',
+                width: 150
+            },
+            {
+                region: 'center',
+                xtype: 'tabpanel',
+                items: [
+                    {
+                      xtype: 'products-list'
+                    }
+                ]
+            }
+        ]
+
+        //parent
+        this.callParent(arguments);
+    }
 });
