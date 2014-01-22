@@ -2,14 +2,16 @@
 *Work in Progress*
 
 
-Connecting Sencha Ext JS with StrongLoop Node.js
+Using Node.js to connect Sencha Ext JS apps to access backend data
 ---
 
 <img src="images/hero.png" alt="tab Home" width="420">
 
 ##What
 
-[Sencha Ext JS](https://www.sencha.com/products/extjs/) is a development environment for building web apps with a scalable MVC architecture.  The [Sencha Cmd](http://www.sencha.com/products/sencha-cmd/download) tool makes it easy to start your application development and carry you through your development cycle. This post and sample will show you how to use StrongLoop's open source [LoopBack](http://strongloop.com/mobile-application-development/loopback/) module as your Node backend API server and leverage the power of the Sencha Ext JS dev environment for creating your web client application.
+[Sencha Ext JS](https://www.sencha.com/products/extjs/) is a development environment for building web apps with a scalable MVC architecture.  The [Sencha Cmd](http://www.sencha.com/products/sencha-cmd/download) tool makes it easy to start your application development and carry you through your development cycle.
+
+Node.js allows JavaScript developers to quickly create API middle-tier servers that bind directly to databases, proxying between disparate data sources, and building full server side applications.
 
 ##Why Ext JS and Node
 
@@ -48,12 +50,12 @@ slc is a simple command line helper for node applications you can install it on 
 
 Using the slc command line and Sencha Cmd it’s very easy to scaffold a Node server with a Sencha Ext JS boilerplate application.
 
-1. Create your loopback node project with dlc ```slc lb project strongloop-server```
+1. Create your node application with slc ```slc lb project strongloop-server```
 1. ```cd strongloop-server```
-1. Configure strong-ops ```slc strongops --register```
-1. Add a model to the project ```slc lb model product```
+1. Optionally you can configure Node.js application monitoring and management by configuring strong-ops ```slc strongops --register```
+1. Enable instant JSON REST access to backend data by adding a model to the project ```slc lb model product```
 1. Create a public folder to host your Sencha extjs app ```mkdir public```
-1. Configure routing in your node app to use the public folder for you applicants index.  In app.'s comment out the default root routing at line 121 ```//app.get('/', loopback.status());```
+1. Update the node app.js file to enable http access to your public folder by commenting out line 121 ```//app.get('/', loopback.status());```.  Routing homepage requests to the Sencha App.
 1. Change your directory to the newly created public folder ```cd public```
 1. Scaffold your sencha app with the sencha cli ```sencha -sdk /Users/matt/acorns/extjs/ext-4.2.1.883 generate app mySenchApp ./```
 1. Build your Sencha app ```sencha app build```
@@ -64,7 +66,10 @@ Lets make sure we configured the scaffolding correctly by opening up a browser t
 
 <img src="images/defaultSechaApp.png" alt="tab Home" width="420">
 
-###Extend our web app and take advantage of Loopback’s model APILets extend our Sencha Application to show an editable live DataGrid of our LoopBack model data for a custom 'products' model type.
+###Extend the Ext JS web app to connect to a Node.js data source
+
+Lets extend our Sencha Application to show an editable live DataGrid of our LoopBack model data for a custom 'products' model type.
+
 First we need to generate our Controller, Models and Views using the Sencha cmd tool.
 
 From within the ```~/strongloop-server/public``` folder run the following commands to scaffold the supporting Sencha MVC files.
@@ -146,7 +151,7 @@ Ext.define('mySenchApp.model.ProductModel', {
 
 ```
 
-We also need to create a Store object.  We created an empty ProductStore.js file because at this time Sencha Cmd does not have a 'sencha generate store' command.
+We also need to create an [Ext.data.Store](http://docs.sencha.com/extjs/4.2.2/#!/api/Ext.data.Store) object to load data via a [Proxy](http://docs.sencha.com/extjs/4.2.2/#!/api/Ext.data.proxy.Proxy).  We manually created the empty ProductStore.js file since Sencha Cmd does not have a 'sencha generate store' command.
 
 Add the following to ProductStore.js.
 
