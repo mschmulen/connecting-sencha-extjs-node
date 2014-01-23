@@ -252,7 +252,8 @@ into the post and press the "try it out!" button.
 
 Now that we have integrated our Sencha ExtJS app with one of our LoopBack REST endpoints we can extend the integration and support multiple model bindings easily add additional Sencha web [UI widgets](http://docs.sencha.com/extjs/4.2.2/#!/example) such as [charts](http://docs.sencha.com/extjs/4.2.2/#!/guide/charting) and tables.
 
-The ability to leverage a robust web framework like Ext JS makes it easy to create user interfaces for updating data in the Node backend
+When Ext JS applications use Node they can build fast, scalable supporting API tiers in JavaScript.  They have access to over 50,000 [npm](http://npmjs.org) components for rapid access to a variety of connector’s features on a platform that can run on a developer’s host machine, and be deployed on premise or in the cloud.
+
 ![image](images/recordEditing.png)
 
 Since we are using LoopBack as our Mobile API middle tier we can also easily bind our data to [MongoDB](http://docs.strongloop.com/display/DOC/MongoDB+connector), [MySQL](http://docs.strongloop.com/display/DOC/MySQL+connector) or [Oracle](http://docs.strongloop.com/display/DOC/Oracle+connector).  Additionally we can use StrongLoops native mobile SDK's for [iOS](http://strongloop.com/mobile/ios/) and [Android](http://strongloop.com/mobile/android) for a full native mobile experience.
