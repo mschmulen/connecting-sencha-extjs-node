@@ -1,4 +1,4 @@
-Ext.define('mySenchApp.lib.form.field.override.Text', {
+Ext.define('mySenchaApp.lib.form.field.override.Text', {
     override: 'Ext.form.field.Text',
 
     getErrors: function(value) {

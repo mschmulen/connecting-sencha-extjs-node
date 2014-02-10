@@ -1,3 +1,3 @@
-Ext.define('mySenchApp.controller.Main', {
+Ext.define('mySenchaApp.controller.Main', {
     extend: 'Ext.app.Controller'
 });

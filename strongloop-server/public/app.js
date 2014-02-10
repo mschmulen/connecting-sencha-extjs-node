@@ -5,9 +5,9 @@
 */
 
 Ext.application({
-    name: 'mySenchApp',
+    name: 'mySenchaApp',
 
-    extend: 'mySenchApp.Application',
+    extend: 'mySenchaApp.Application',
     
     autoCreateViewport: true
 });

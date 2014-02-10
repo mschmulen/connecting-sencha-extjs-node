@@ -48,7 +48,7 @@
       "source": "build.properties.merge",
       "version": "d4613dc19be3ddb60e7ff5716e28c8b15d954f3a",
       "parameters": {
-        "viewNamespace": "mySenchApp.view",
+        "viewNamespace": "mySenchaApp.view",
         "frameworkName": "ext",
         "frameworkPath": "ext",
         "senchadir": ".sencha",
@@ -57,15 +57,15 @@
         "viewFileName": "Main",
         "appControllers": "",
         "appViews": "",
-        "uniqueId": "2999a655-0920-4d2b-a55d-4a8da590deff",
-        "appName": "mySenchApp",
-        "modelNamespace": "mySenchApp.model",
+        "uniqueId": "d9e0d9be-da82-4a01-996b-f030e2127b45",
+        "appName": "mySenchaApp",
+        "modelNamespace": "mySenchaApp.model",
         "controllerName": "Main",
         "viewName": "Main",
         "themeName": "default",
         "packagesRelPath": "ext/packages",
-        "name": "mySenchApp",
-        "controllerNamespace": "mySenchApp.controller",
+        "name": "mySenchaApp",
+        "controllerNamespace": "mySenchaApp.controller",
         "library": "all",
         "appStores": ""
       }
@@ -74,7 +74,7 @@
       "source": "native.properties.merge",
       "version": "2c8c063f9588eecff09624782d7369a8a000d61c",
       "parameters": {
-        "viewNamespace": "mySenchApp.view",
+        "viewNamespace": "mySenchaApp.view",
         "frameworkName": "ext",
         "frameworkPath": "ext",
         "senchadir": ".sencha",
@@ -83,15 +83,15 @@
         "viewFileName": "Main",
         "appControllers": "",
         "appViews": "",
-        "uniqueId": "2999a655-0920-4d2b-a55d-4a8da590deff",
-        "appName": "mySenchApp",
-        "modelNamespace": "mySenchApp.model",
+        "uniqueId": "d9e0d9be-da82-4a01-996b-f030e2127b45",
+        "appName": "mySenchaApp",
+        "modelNamespace": "mySenchaApp.model",
         "controllerName": "Main",
         "viewName": "Main",
         "themeName": "default",
         "packagesRelPath": "ext/packages",
-        "name": "mySenchApp",
-        "controllerNamespace": "mySenchApp.controller",
+        "name": "mySenchaApp",
+        "controllerNamespace": "mySenchaApp.controller",
         "library": "all",
         "appStores": ""
       }
@@ -100,7 +100,7 @@
       "source": "package.properties.merge",
       "version": "c6c1fb2fb1dda28480ad0f6e5caffc9b97d196ae",
       "parameters": {
-        "viewNamespace": "mySenchApp.view",
+        "viewNamespace": "mySenchaApp.view",
         "frameworkName": "ext",
         "frameworkPath": "ext",
         "senchadir": ".sencha",
@@ -109,15 +109,15 @@
         "viewFileName": "Main",
         "appControllers": "",
         "appViews": "",
-        "uniqueId": "2999a655-0920-4d2b-a55d-4a8da590deff",
-        "appName": "mySenchApp",
-        "modelNamespace": "mySenchApp.model",
+        "uniqueId": "d9e0d9be-da82-4a01-996b-f030e2127b45",
+        "appName": "mySenchaApp",
+        "modelNamespace": "mySenchaApp.model",
         "controllerName": "Main",
         "viewName": "Main",
         "themeName": "default",
         "packagesRelPath": "ext/packages",
-        "name": "mySenchApp",
-        "controllerNamespace": "mySenchApp.controller",
+        "name": "mySenchaApp",
+        "controllerNamespace": "mySenchaApp.controller",
         "library": "all",
         "appStores": ""
       }
@@ -126,7 +126,7 @@
       "source": "production.properties.merge",
       "version": "cbdf9712e9b5d37cecb4d0530ba1fccd0ed004a3",
       "parameters": {
-        "viewNamespace": "mySenchApp.view",
+        "viewNamespace": "mySenchaApp.view",
         "frameworkName": "ext",
         "frameworkPath": "ext",
         "senchadir": ".sencha",
@@ -135,15 +135,15 @@
         "viewFileName": "Main",
         "appControllers": "",
         "appViews": "",
-        "uniqueId": "2999a655-0920-4d2b-a55d-4a8da590deff",
-        "appName": "mySenchApp",
-        "modelNamespace": "mySenchApp.model",
+        "uniqueId": "d9e0d9be-da82-4a01-996b-f030e2127b45",
+        "appName": "mySenchaApp",
+        "modelNamespace": "mySenchaApp.model",
         "controllerName": "Main",
         "viewName": "Main",
         "themeName": "default",
         "packagesRelPath": "ext/packages",
-        "name": "mySenchApp",
-        "controllerNamespace": "mySenchApp.controller",
+        "name": "mySenchaApp",
+        "controllerNamespace": "mySenchaApp.controller",
         "library": "all",
         "appStores": ""
       }
@@ -152,7 +152,7 @@
       "source": "sencha.cfg.tpl.merge",
       "version": "8b88dc946a59c6ad6edb77744966e548250b33a3",
       "parameters": {
-        "viewNamespace": "mySenchApp.view",
+        "viewNamespace": "mySenchaApp.view",
         "frameworkName": "ext",
         "frameworkPath": "ext",
         "senchadir": ".sencha",
@@ -161,15 +161,15 @@
         "viewFileName": "Main",
         "appControllers": "",
         "appViews": "",
-        "uniqueId": "2999a655-0920-4d2b-a55d-4a8da590deff",
-        "appName": "mySenchApp",
-        "modelNamespace": "mySenchApp.model",
+        "uniqueId": "d9e0d9be-da82-4a01-996b-f030e2127b45",
+        "appName": "mySenchaApp",
+        "modelNamespace": "mySenchaApp.model",
         "controllerName": "Main",
         "viewName": "Main",
         "themeName": "default",
         "packagesRelPath": "ext/packages",
-        "name": "mySenchApp",
-        "controllerNamespace": "mySenchApp.controller",
+        "name": "mySenchaApp",
+        "controllerNamespace": "mySenchaApp.controller",
         "library": "all",
         "appStores": ""
       }
@@ -178,7 +178,7 @@
       "source": "testing.properties.merge",
       "version": "360e715956c81757e53736789fe20be045acb544",
       "parameters": {
-        "viewNamespace": "mySenchApp.view",
+        "viewNamespace": "mySenchaApp.view",
         "frameworkName": "ext",
         "frameworkPath": "ext",
         "senchadir": ".sencha",
@@ -187,15 +187,15 @@
         "viewFileName": "Main",
         "appControllers": "",
         "appViews": "",
-        "uniqueId": "2999a655-0920-4d2b-a55d-4a8da590deff",
-        "appName": "mySenchApp",
-        "modelNamespace": "mySenchApp.model",
+        "uniqueId": "d9e0d9be-da82-4a01-996b-f030e2127b45",
+        "appName": "mySenchaApp",
+        "modelNamespace": "mySenchaApp.model",
         "controllerName": "Main",
         "viewName": "Main",
         "themeName": "default",
         "packagesRelPath": "ext/packages",
-        "name": "mySenchApp",
-        "controllerNamespace": "mySenchApp.controller",
+        "name": "mySenchaApp",
+        "controllerNamespace": "mySenchaApp.controller",
         "library": "all",
         "appStores": ""
       }
@@ -204,7 +204,7 @@
       "source": "app.js.tpl.merge",
       "version": "adb7999f937a224ece5dc57252db7048652e6616",
       "parameters": {
-        "viewNamespace": "mySenchApp.view",
+        "viewNamespace": "mySenchaApp.view",
         "frameworkName": "ext",
         "frameworkPath": "ext",
         "senchadir": ".sencha",
@@ -213,15 +213,15 @@
         "viewFileName": "Main",
         "appControllers": "",
         "appViews": "",
-        "uniqueId": "2999a655-0920-4d2b-a55d-4a8da590deff",
-        "appName": "mySenchApp",
-        "modelNamespace": "mySenchApp.model",
+        "uniqueId": "d9e0d9be-da82-4a01-996b-f030e2127b45",
+        "appName": "mySenchaApp",
+        "modelNamespace": "mySenchaApp.model",
         "controllerName": "Main",
         "viewName": "Main",
         "themeName": "default",
         "packagesRelPath": "ext/packages",
-        "name": "mySenchApp",
-        "controllerNamespace": "mySenchApp.controller",
+        "name": "mySenchaApp",
+        "controllerNamespace": "mySenchaApp.controller",
         "library": "all",
         "appStores": ""
       }
@@ -230,7 +230,7 @@
       "source": "app.json.tpl.merge",
       "version": "5c35fa135e5c429faf9348c096b567a3079ad83b",
       "parameters": {
-        "viewNamespace": "mySenchApp.view",
+        "viewNamespace": "mySenchaApp.view",
         "frameworkName": "ext",
         "frameworkPath": "ext",
         "senchadir": ".sencha",
@@ -239,15 +239,15 @@
         "viewFileName": "Main",
         "appControllers": "",
         "appViews": "",
-        "uniqueId": "2999a655-0920-4d2b-a55d-4a8da590deff",
-        "appName": "mySenchApp",
-        "modelNamespace": "mySenchApp.model",
+        "uniqueId": "d9e0d9be-da82-4a01-996b-f030e2127b45",
+        "appName": "mySenchaApp",
+        "modelNamespace": "mySenchaApp.model",
         "controllerName": "Main",
         "viewName": "Main",
         "themeName": "default",
         "packagesRelPath": "ext/packages",
-        "name": "mySenchApp",
-        "controllerNamespace": "mySenchApp.controller",
+        "name": "mySenchaApp",
+        "controllerNamespace": "mySenchaApp.controller",
         "library": "all",
         "appStores": ""
       }
@@ -256,7 +256,7 @@
       "source": "index.html.tpl.merge",
       "version": "f036c68a34ae0bc941832df08c406a00545dd9f6",
       "parameters": {
-        "viewNamespace": "mySenchApp.view",
+        "viewNamespace": "mySenchaApp.view",
         "frameworkName": "ext",
         "frameworkPath": "ext",
         "senchadir": ".sencha",
@@ -265,15 +265,15 @@
         "viewFileName": "Main",
         "appControllers": "",
         "appViews": "",
-        "uniqueId": "2999a655-0920-4d2b-a55d-4a8da590deff",
-        "appName": "mySenchApp",
-        "modelNamespace": "mySenchApp.model",
+        "uniqueId": "d9e0d9be-da82-4a01-996b-f030e2127b45",
+        "appName": "mySenchaApp",
+        "modelNamespace": "mySenchaApp.model",
         "controllerName": "Main",
         "viewName": "Main",
         "themeName": "default",
         "packagesRelPath": "ext/packages",
-        "name": "mySenchApp",
-        "controllerNamespace": "mySenchApp.controller",
+        "name": "mySenchaApp",
+        "controllerNamespace": "mySenchaApp.controller",
         "library": "all",
         "appStores": ""
       }
@@ -282,7 +282,7 @@
       "source": "config.rb.tpl.merge",
       "version": "33f446bd02c3fd24eb27891582eff6a2e789796b",
       "parameters": {
-        "viewNamespace": "mySenchApp.view",
+        "viewNamespace": "mySenchaApp.view",
         "frameworkName": "ext",
         "frameworkPath": "ext",
         "senchadir": ".sencha",
@@ -291,15 +291,15 @@
         "viewFileName": "Main",
         "appControllers": "",
         "appViews": "",
-        "uniqueId": "2999a655-0920-4d2b-a55d-4a8da590deff",
-        "appName": "mySenchApp",
-        "modelNamespace": "mySenchApp.model",
+        "uniqueId": "d9e0d9be-da82-4a01-996b-f030e2127b45",
+        "appName": "mySenchaApp",
+        "modelNamespace": "mySenchaApp.model",
         "controllerName": "Main",
         "viewName": "Main",
         "themeName": "default",
         "packagesRelPath": "ext/packages",
-        "name": "mySenchApp",
-        "controllerNamespace": "mySenchApp.controller",
+        "name": "mySenchaApp",
+        "controllerNamespace": "mySenchaApp.controller",
         "library": "all",
         "appStores": ""
       }
@@ -308,7 +308,7 @@
       "source": "theme.html.tpl.merge",
       "version": "79e5bc8b4cebd921ec602e9a67c0493c70d2d5ce",
       "parameters": {
-        "viewNamespace": "mySenchApp.view",
+        "viewNamespace": "mySenchaApp.view",
         "frameworkName": "ext",
         "frameworkPath": "ext",
         "senchadir": ".sencha",
@@ -317,15 +317,15 @@
         "viewFileName": "Main",
         "appControllers": "",
         "appViews": "",
-        "uniqueId": "2999a655-0920-4d2b-a55d-4a8da590deff",
-        "appName": "mySenchApp",
-        "modelNamespace": "mySenchApp.model",
+        "uniqueId": "d9e0d9be-da82-4a01-996b-f030e2127b45",
+        "appName": "mySenchaApp",
+        "modelNamespace": "mySenchaApp.model",
         "controllerName": "Main",
         "viewName": "Main",
         "themeName": "default",
         "packagesRelPath": "ext/packages",
-        "name": "mySenchApp",
-        "controllerNamespace": "mySenchApp.controller",
+        "name": "mySenchaApp",
+        "controllerNamespace": "mySenchaApp.controller",
         "library": "all",
         "appStores": ""
       }
@@ -334,55 +334,55 @@
       "source": "{controllerFileName}.js.tpl.merge",
       "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
       "parameters": {
-        "appName": "mySenchApp",
+        "appName": "mySenchaApp",
         "controllerName": "Main",
         "controllerFileName": "Main",
-        "name": "mySenchApp",
-        "controllerNamespace": "mySenchApp.controller",
+        "name": "mySenchaApp",
+        "controllerNamespace": "mySenchaApp.controller",
         "library": "all"
-      }
-    },
-    "app/controller/ProductController.js": {
-      "source": "{controllerFileName}.js.tpl.merge",
-      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
-      "parameters": {
-        "appName": "mySenchApp",
-        "controllerName": "ProductController",
-        "controllerFileName": "ProductController",
-        "name": "ProductController",
-        "controllerNamespace": "mySenchApp.controller"
       }
     },
     "app/model/ProductModel.js": {
       "source": "{modelFileName}.js.tpl.merge",
       "version": "31d5356142a167c72422f7902f19df3c583f3249",
       "parameters": {
-        "appName": "mySenchApp",
-        "modelNamespace": "mySenchApp.model",
+        "appName": "mySenchaApp",
+        "modelNamespace": "mySenchaApp.model",
         "baseClass": "Ext.data.Model",
         "modelFileName": "ProductModel",
         "name": "ProductModel",
         "fields": "id:int:null"
       }
     },
-    "app/view/products/list.js": {
-      "source": "{viewFileName}.js.tpl.merge",
-      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+    "app/controller/ProductController.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
       "parameters": {
-        "appName": "mySenchApp",
-        "viewName": "products.list",
-        "name": "products.list",
-        "viewFileName": "products/list"
+        "appName": "mySenchaApp",
+        "controllerName": "ProductController",
+        "controllerFileName": "ProductController",
+        "name": "ProductController",
+        "controllerNamespace": "mySenchaApp.controller"
       }
     },
-    "app/view/products/add.js": {
+    "app/view/products/List.js": {
       "source": "{viewFileName}.js.tpl.merge",
       "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
       "parameters": {
-        "appName": "mySenchApp",
-        "viewName": "products.add",
-        "name": "products.add",
-        "viewFileName": "products/add"
+        "appName": "mySenchaApp",
+        "viewName": "products.List",
+        "name": "products.List",
+        "viewFileName": "products/List"
+      }
+    },
+    "app/view/products/Add.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "mySenchaApp",
+        "viewName": "products.Add",
+        "name": "products.Add",
+        "viewFileName": "products/Add"
       }
     }
   }

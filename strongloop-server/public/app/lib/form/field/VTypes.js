@@ -1,4 +1,4 @@
-Ext.define('mySenchApp.lib.form.field.VTypes', {
+Ext.define('mySenchaApp.lib.form.field.VTypes', {
 
     pin: /(?!(.)\1\1).{3}/,
     digits: /[0-9]+$/,

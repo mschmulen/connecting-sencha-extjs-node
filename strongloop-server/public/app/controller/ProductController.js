@@ -1,9 +1,9 @@
-Ext.define('mySenchApp.controller.ProductController', {
+Ext.define('mySenchaApp.controller.ProductController', {
     extend: 'Ext.app.Controller',
 		
     views:[
-        'products.list',
-        'products.add'
+        'products.List',
+        'products.Add'
     ],
 		
     stores:[ 'ProductStore' ],

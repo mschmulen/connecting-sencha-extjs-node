@@ -8,7 +8,7 @@ Ext.Loader.addClassPathMappings({
   "Ext": "ext/src",
   "Ext.Msg": "ext/src/window/MessageBox.js",
   "Ext.rtl.EventObjectImpl": "ext/src/rtl/EventObject.js",
-  "mySenchApp": "app"
+  "mySenchaApp": "app"
 });
 Ext.ClassManager.addNameAlternateMappings({
   "Ext.AbstractComponent": [],
@@ -827,17 +827,17 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.window.Window": [
     "Ext.Window"
   ],
-  "mySenchApp.Application": [],
-  "mySenchApp.controller.Main": [],
-  "mySenchApp.controller.ProductController": [],
-  "mySenchApp.lib.form.field.VTypes": [],
-  "mySenchApp.lib.form.field.override.Text": [],
-  "mySenchApp.model.ProductModel": [],
-  "mySenchApp.store.ProductStore": [],
-  "mySenchApp.view.Main": [],
-  "mySenchApp.view.Viewport": [],
-  "mySenchApp.view.products.add": [],
-  "mySenchApp.view.products.list": []
+  "mySenchaApp.Application": [],
+  "mySenchaApp.controller.Main": [],
+  "mySenchaApp.controller.ProductController": [],
+  "mySenchaApp.lib.form.field.VTypes": [],
+  "mySenchaApp.lib.form.field.override.Text": [],
+  "mySenchaApp.model.ProductModel": [],
+  "mySenchaApp.store.ProductStore": [],
+  "mySenchaApp.view.Main": [],
+  "mySenchaApp.view.Viewport": [],
+  "mySenchaApp.view.products.Add": [],
+  "mySenchaApp.view.products.List": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1824,22 +1824,22 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.window.Window": [
     "widget.window"
   ],
-  "mySenchApp.Application": [],
-  "mySenchApp.controller.Main": [],
-  "mySenchApp.controller.ProductController": [],
-  "mySenchApp.lib.form.field.VTypes": [],
-  "mySenchApp.lib.form.field.override.Text": [],
-  "mySenchApp.model.ProductModel": [],
-  "mySenchApp.store.ProductStore": [],
-  "mySenchApp.view.Main": [
+  "mySenchaApp.Application": [],
+  "mySenchaApp.controller.Main": [],
+  "mySenchaApp.controller.ProductController": [],
+  "mySenchaApp.lib.form.field.VTypes": [],
+  "mySenchaApp.lib.form.field.override.Text": [],
+  "mySenchaApp.model.ProductModel": [],
+  "mySenchaApp.store.ProductStore": [],
+  "mySenchaApp.view.Main": [
     "widget.app-main"
   ],
-  "mySenchApp.view.Viewport": [],
-  "mySenchApp.view.products.add": [
+  "mySenchaApp.view.Viewport": [],
+  "mySenchaApp.view.products.Add": [
     "widget.productAdd"
   ],
-  "mySenchApp.view.products.list": [
-    "widget.products-list"
+  "mySenchaApp.view.products.List": [
+    "widget.products-List"
   ]
 });
 Ext.setVersion("ext-theme-base", "4.2.1");

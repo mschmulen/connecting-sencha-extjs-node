@@ -1,16 +1,16 @@
-Ext.define("mySenchApp.view.products.add", {
+Ext.define("mySenchaApp.view.products.Add", {
     extend: 'Ext.Component',
     alias: 'widget.productAdd',
-		
+
     height: 225,
     width: 369,
     resizable: false,
     title: 'Add user',
     modal: true,
-		
+
     initComponent: function() {
         var me = this;
-				
+
         Ext.applyIf(me, {
             items: [
                 {
@@ -69,6 +69,6 @@ Ext.define("mySenchApp.view.products.add", {
 
         me.callParent(arguments);
     }
-		
+
     //html: 'Hello, World!!'
 });

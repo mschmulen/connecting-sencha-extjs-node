@@ -1,17 +1,17 @@
-Ext.define("mySenchApp.view.products.list", {
+Ext.define("mySenchaApp.view.products.List", {
     extend: 'Ext.grid.Panel',
-    xtype: 'products-list',
+    xtype: 'products-List',
     title: 'products',
-		
+
     viewConfig: {
         enableTextSelection: true,
         stripeRows: true
     },
-		
+
     store: 'ProductStore',
-		
+
     initComponent: function () {
-			
+
       var me = this,
           rowEditing = Ext.create('Ext.grid.plugin.RowEditing', {
           clicksToEdit: 2
@@ -30,7 +30,7 @@ Ext.define("mySenchApp.view.products.list", {
               }
           }]
       });
-			
+
       this.listeners = {
           itemcontextmenu: function(view, record, item, index, e){
               e.stopEvent();
@@ -39,7 +39,7 @@ Ext.define("mySenchApp.view.products.list", {
       };
 
       this.plugins = [rowEditing];
-			
+
       this.selType = 'rowmodel';
 
       this.dockedItems = [
@@ -66,7 +66,7 @@ Ext.define("mySenchApp.view.products.list", {
               //store: 'ProductModel'
           }
       ];//end rows
-			
+
       this.columns = [
           { text: 'id', dataIndex: 'id', hidden: false },
           {
@@ -121,9 +121,9 @@ Ext.define("mySenchApp.view.products.list", {
               ]
           }
       ];//end columns
-			
+
       //parent
       this.callParent(arguments);
-			
+
   	}
 });

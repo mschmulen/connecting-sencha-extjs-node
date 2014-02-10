@@ -1,8 +1,8 @@
-Ext.define('mySenchApp.view.Viewport', {
+Ext.define('mySenchaApp.view.Viewport', {
     extend: 'Ext.container.Viewport',
     requires:[
         'Ext.layout.container.Fit',
-        'mySenchApp.view.Main'
+        'mySenchaApp.view.Main'
     ],
 
     layout: {

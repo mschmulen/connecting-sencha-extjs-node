@@ -1,18 +1,18 @@
-Ext.define('mySenchApp.Application', {
-    name: 'mySenchApp',
-
+Ext.define('mySenchaApp.Application', {
+    name: 'mySenchaApp',
+		
     extend: 'Ext.app.Application',
-
-    requires: [
-        'mySenchApp.lib.form.field.VTypes',
-        'mySenchApp.lib.form.field.override.Text'
-    ],
+		
+		requires: [
+		        'mySenchaApp.lib.form.field.VTypes',
+		        'mySenchaApp.lib.form.field.override.Text'
+		],
 		
     views: [
-    	'products.list',
-    	'products.add'
+    	'products.List',
+    	'products.Add'
     ],
-		
+
     controllers: [
       'ProductController'
 		],
@@ -22,7 +22,7 @@ Ext.define('mySenchApp.Application', {
     ],
 		
     launch: function(){
-        Ext.create('mySenchApp.lib.form.field.VTypes').init();
+        Ext.create('mySenchaApp.lib.form.field.VTypes').init();
     },
-		
+			
 });

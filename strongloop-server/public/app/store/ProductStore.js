@@ -1,6 +1,6 @@
-Ext.define('mySenchApp.store.ProductStore', {
+Ext.define('mySenchaApp.store.ProductStore', {
     extend: 'Ext.data.Store',
-    model: 'mySenchApp.model.ProductModel',
+    model: 'mySenchaApp.model.ProductModel',
     autoLoad: true,
     autoSync: true,
     remoteFilter: true
