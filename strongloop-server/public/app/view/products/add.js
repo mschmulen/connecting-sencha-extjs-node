@@ -1,16 +1,16 @@
 Ext.define("mySenchaApp.view.products.Add", {
     extend: 'Ext.Component',
     alias: 'widget.productAdd',
-
+		
     height: 225,
     width: 369,
     resizable: false,
-    title: 'Add user',
+    title: 'Add product',
     modal: true,
-
+		
     initComponent: function() {
         var me = this;
-
+				
         Ext.applyIf(me, {
             items: [
                 {
@@ -26,29 +26,13 @@ Ext.define("mySenchaApp.view.products.Add", {
                     },
                     items: [
                         {
-                            fieldLabel: 'Login',
-                            name: 'login',
+                            fieldLabel: 'Name',
+                            name: 'name',
                             minLength: 4
                         },
                         {
-                            fieldLabel: 'First Name',
-                            name: 'firstName'
-                        },
-                        {
-                            fieldLabel: 'Last Name',
-                            name: 'lastName'
-                        },
-                        {
-                            fieldLabel: 'Email',
-                            name: 'email',
-                            vtype: 'email'
-                        },
-                        {
-                            fieldLabel: 'PIN Number',
-                            name: 'pin',
-                            minLength: 4,
-                            maxLength: 4,
-                            vtype: ['pin', 'digits']
+                            fieldLabel: 'Description',
+                            name: 'description'
                         },
                         {
                             xtype: 'button',

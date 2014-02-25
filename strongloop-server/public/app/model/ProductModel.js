@@ -26,16 +26,16 @@ Ext.define('mySenchaApp.model.ProductModel', {
             } else {
                 verb = name + 'd';
             }
-            Ext.example.msg(name, Ext.String.format("{0} user: {1}", verb, record.getId()));
+            Ext.example.msg(name, Ext.String.format("{0} name: {1}", verb, record.getId()));
 
         }
     },
 
     fields: [
         { name: 'id', type: 'int', defaultValue: null },
-        { name: 'name', type: 'string' },
-        { name: 'description', type: 'string' },
-        { name: 'inventory', type: 'int' },
-        { name: 'price', type: 'string' },
+        { name: 'name', type: 'string', defaultValue: 'new' },
+        { name: 'description', type: 'string', defaultValue: 'new description' },
+        { name: 'inventory', type: 'string',defaultValue: '33' },
+        { name: 'price', type: 'string',defaultValue: '3.33' },
     ]
 });
