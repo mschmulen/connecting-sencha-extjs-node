@@ -1836,7 +1836,7 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "mySenchaApp.view.Viewport": [],
   "mySenchaApp.view.products.Add": [
-    "widget.productAdd"
+    "widget.productsAdd"
   ],
   "mySenchaApp.view.products.List": [
     "widget.products-List"

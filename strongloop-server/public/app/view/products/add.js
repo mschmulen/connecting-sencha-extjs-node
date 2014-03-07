@@ -1,6 +1,6 @@
 Ext.define("mySenchaApp.view.products.Add", {
     extend: 'Ext.Component',
-    alias: 'widget.productAdd',
+    alias: 'widget.productsAdd',
 		
     height: 225,
     width: 369,

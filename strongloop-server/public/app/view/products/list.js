@@ -48,11 +48,6 @@ Ext.define("mySenchaApp.view.products.List", {
               dock: 'top',
               items: [
                   {
-                      xtype: 'button',
-                      itemId: 'add',
-                      text: 'Add product'
-                  },
-                  {
                       xtype: 'container',
                       flex: 1
                   }

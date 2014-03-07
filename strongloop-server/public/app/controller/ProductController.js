@@ -60,11 +60,16 @@ Ext.define('mySenchaApp.controller.ProductController', {
             me.getProductsAdd().destroy();
         }
     },
+		
     onProductsAddClick: function(){
+			 	Ext.Msg.alert('Status', 'onProductsAddClick');
+			 	console.log(' yack yack yack ');
+				/*
         var me = this, window = Ext.widget('productsAdd');
-
+				//console.log (" YACK YACK ");
         window.show();
         window.down('form').getForm().loadRecord(new mySenchApp.model.ProductModel());
+				*/
     }
 		
 });
