@@ -1,9 +1,10 @@
 Ext.define('mySenchaApp.model.ProductModel', {
     extend: 'Ext.data.Model',
-
+		
     proxy: {
         type: 'rest',
-        url : 'http://localhost:3000/api/products',
+        url : '/api/products',
+				appendId: false,
             headers: {
                 'Accept': 'application/json'
             },

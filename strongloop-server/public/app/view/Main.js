@@ -2,7 +2,10 @@ Ext.define('mySenchaApp.view.Main', {
     extend: 'Ext.container.Container',
     requires:[
         'Ext.tab.Panel',
-        'Ext.layout.container.Border'
+        'Ext.layout.container.Border',
+				'Ext.grid.plugin.RowEditing',
+				'Ext.grid.column.Action',
+				'Ext.toolbar.Paging'
     ],
     
     xtype: 'app-main',
