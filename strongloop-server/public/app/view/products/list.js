@@ -62,8 +62,8 @@ Ext.define("mySenchaApp.view.products.List", {
               xtype: 'pagingtoolbar',
               dock: 'bottom',
               width: 360,
-              displayInfo: true
-              //store: 'ProductModel'
+              displayInfo: true,
+              store: 'ProductStore'
           }
       ];//end rows
 
